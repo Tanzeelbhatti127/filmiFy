@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 
 export function Search({ query, setQuery }) {
-  const inputEl = useRef(null);
+  const inputEl = useRef(undefined);
 
   useEffect(function () {
     function callback(e) {
